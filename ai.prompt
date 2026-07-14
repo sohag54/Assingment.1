@@ -1,0 +1,56 @@
+I am building a modern conference landing page called "DevConf 2026" using only HTML and CSS.
+
+The website already includes:
+- Navbar
+- Hero Banner
+- Meet the Speakers
+- Pricing Section
+- Footer
+
+I need to replace the placeholder AI section with a new section called "Why Attend DevConf?".
+
+Design a clean and modern section that explains why developers should attend the conference.
+
+Requirements:
+
+Section Title:
+Why Attend DevConf?
+
+Subtitle:
+Discover the experiences, knowledge, and opportunities that make DevConf 2026 the must-attend event for developers.
+
+Create four feature cards displayed in a responsive 2×2 grid.
+
+Each card should include:
+- A simple icon (emoji or Font Awesome placeholder)
+- Feature title
+- A short description (1–2 sentences)
+
+The four feature cards should be:
+
+1. Learn from Industry Leaders
+Gain practical insights from world-class engineers, founders, and technology experts.
+
+2. Hands-on Workshops
+Build real projects and improve your skills through interactive coding sessions.
+
+3. Network with Professionals
+Meet developers, recruiters, startup founders, and technology enthusiasts from around the world.
+
+4. Career Growth
+Explore internship opportunities, job openings, and mentorship sessions to accelerate your career.
+
+Below the cards, add a centered button with the text:
+Join DevConf 2026
+
+Design Requirements:
+- Use semantic HTML5
+- Use only HTML and CSS (no JavaScript)
+- White background
+- Blue accent color (#2563EB)
+- Rounded cards (16–20px)
+- Soft shadows
+- Smooth hover effect
+- Responsive layout using CSS Grid or Flexbox
+- Clean, beginner-friendly code
+- The design should match the overall style of a professional technology conference website.
