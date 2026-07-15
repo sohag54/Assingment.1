@@ -303,4 +303,104 @@ button{
     }
 }
 
+.why-attend{
+    padding:120px 80px;
+    background:#F8FAFC;
+    text-align:center;
+}
+
+.why-attend h2{
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.why-attend .subtitle{
+    max-width:700px;
+    margin:0 auto 70px;
+    font-size:18px;
+    color:#6B7280;
+    line-height:1.7;
+}
+
+.why-container{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+
+.why-card{
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.3s;
+    text-align:left;
+}
+
+.why-card:hover{
+    transform:translateY(-8px);
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    background:#DBEAFE;
+    color:#2563EB;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    margin-bottom:25px;
+}
+
+.why-card h3{
+    font-size:24px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#6B7280;
+    line-height:1.7;
+    font-size:16px;
+}
+
+.why-btn{
+    margin-top:60px;
+    background:#2563EB;
+    color:#fff;
+    padding:16px 40px;
+    border:none;
+    border-radius:10px;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.why-btn:hover{
+    background:#1D4ED8;
+}
+
+
+
+@media(max-width:992px){
+
+    .why-container{
+        grid-template-columns:1fr;
+    }
+
+    .why-attend{
+        padding:80px 30px;
+    }
+
+    .why-attend h2{
+        font-size:38px;
+    }
+
+}
+
 
