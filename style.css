@@ -441,3 +441,33 @@ button{
 .social-icons a:hover{
     background:#2563EB;
     transform:translateY(-5px);
+    
+
+.footer hr{
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+    margin:35px 0 25px;
+}
+
+.footer p{
+    color:#D1D5DB;
+    text-align:center;
+    font-size:15px;
+}
+@media (max-width:768px){
+
+    .footer{
+        padding:50px 25px;
+    }
+
+    .footer-top{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .footer-logo img{
+        width:150px;
+    }
+
+}
+
