@@ -38,3 +38,35 @@ button{
     border: none;
     cursor: pointer;
 }
+
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("./assets/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+}
+
+.hero h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.hero p{
+    font-size: 18px;
+    max-width: 750px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.hero-btn{
+    padding: 18px 40px;
+    margin-top: 350px;
+}
