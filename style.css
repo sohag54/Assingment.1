@@ -404,3 +404,40 @@ button{
 }
 
 
+.footer{
+    background:#111827;
+    padding:50px 80px 30px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-logo img{
+    width:180px;
+}
+
+.social-icons{
+    display:flex;
+    gap:18px;
+}
+
+.social-icons a{
+    width:45px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    background:#1F2937;
+    color:white;
+    border-radius:50%;
+    font-size:18px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#2563EB;
+    transform:translateY(-5px);
