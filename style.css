@@ -441,7 +441,7 @@ button{
 .social-icons a:hover{
     background:#2563EB;
     transform:translateY(-5px);
-    
+}
 
 .footer hr{
     border:none;
@@ -470,4 +470,3 @@ button{
     }
 
 }
-
